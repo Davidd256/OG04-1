@@ -1,4 +1,5 @@
 
+
 def area_circle(r):
     s = 3.1415 * r ** 2
     return s
@@ -16,4 +17,18 @@ b = 4
 h = 2
 print(f'Площадь трапеции со сторонами {a},  {b}  высотой {h} равна: {area_trapezoid(a, b, h)}')
 
+
+
+def calc(a, b):
+    print('Калькулятор:')
+    print(f'a = {a}, b = {b}')
+    print(f'a + b = {a + b}')
+    print(f'a - b = {a - b}')
+    print(f'a * b = {a * b}')
+    print(f'a / b = {a / b}')
+
+
+a = 5
+b = 10
+calc(a, b);
 
